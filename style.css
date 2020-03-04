@@ -6,8 +6,9 @@ body {
 }
 
 header {
-    height: 500px;
+    height: 520px;
     padding: 40px 36px 0 36px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -18,58 +19,68 @@ header {
 /* Icons style  */
 
 .icons-container {
-    padding-top: 30px;  
+    padding-top: 100px;  
+
 }
 
 .icon-boarder { 
     border-radius: 50%;
     border: 3px solid #FFFFFF;
-    padding: 5px;
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 
 .icon-img {
-    padding: 5px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
-
-.Full-image-container {
-    overflow: hidden;
-}
 /* Header text style */
 
 .info-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    padding-right: 30px;
     padding-top: 30px;  
-    background-color: tomato;
-    margin-top: 20px;
 }
 
 .top-text {
-    font: Bold 15px Roboto;
-    letter-spacing: 1.12px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     text-transform: uppercase;
+    padding-bottom: 2px;
+    margin: 0;
+ }
+
+ .regual-font {
+    font: 13px/15px Roboto;
+ }
+
+ .bold-font {
+    font: Bold 13px/15px Roboto;
  }
 
 .title-text {
-   font: Bold 50px/50px Montserrat;
+   font: Bold 40px/49px Montserrat;
+   letter-spacing: 0;
    color: #FFFFFF;
+   margin: 0;
 }
 
 .under-text {
+   padding-top: 5px;
    font: Bold 30px/25px Montserrat;
    color: #FFFFFF;
+   margin: 0;
 }
 
 /* Profile image */
 
 .person-image {
-    margin-top: 180px;
-    margin-right: 430px;
+    margin-top: 30px;
 }
 
 .person-image img {
@@ -78,5 +89,59 @@ header {
     width: 180px;
 }
 
+/* Section 1 style */
 
+.bgcray-portfolio-section1 {
+    height: 360px;
+    padding: 40px 36px 0 36px; 
+    background-color: rgba(95, 94, 94, 0.062);
+}
 
+.secation1-text {
+    font-family: 'Montserrat';
+    font-size: 22px; 
+}
+
+/* Section 2 style */
+
+.portfolio-section2{
+    height: 360px;
+    padding: 40px 36px 0 36px;  
+}
+
+.secation2-titel {
+   text-align: center;
+   font: Bold 15px/27px Montserrat;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.secation2-titel span {
+    background-color: #FA382F;
+}
+
+.secation2-text {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 22px; 
+}
+
+/* Section 3 style */
+
+.bgcray-portfolio-section3 {
+    height: 360px;
+    padding: 40px 36px 0 36px;
+    background-color: rgba(95, 94, 94, 0.062); 
+}
+
+.secation3-titel {
+   text-align: center;
+   font: Bold 15px/27px Montserrat;
+   text-transform: uppercase;
+   width: 300px;
+   color: #FFFFFF;
+}
+
+.secation3-titel span {
+    background-color: #FA382F;
+}
