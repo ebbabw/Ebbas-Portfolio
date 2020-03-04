@@ -1,4 +1,8 @@
 
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     margin: 0;
@@ -32,7 +36,6 @@ header {
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
-
 }
 
 .icon-img {
@@ -129,19 +132,92 @@ header {
 /* Section 3 style */
 
 .bgcray-portfolio-section3 {
-    height: 360px;
+    height: 1200px;
     padding: 40px 36px 0 36px;
     background-color: rgba(95, 94, 94, 0.062); 
 }
 
-.secation3-titel {
+.secation3-titel-1 {
    text-align: center;
    font: Bold 15px/27px Montserrat;
    text-transform: uppercase;
    width: 300px;
    color: #FFFFFF;
+   padding-bottom: 30px;
 }
 
-.secation3-titel span {
+.secation3-titel-1 span {
     background-color: #FA382F;
+}
+
+.secation3-titel-2 {
+    text-align: center;
+    font: Bold 15px/27px Montserrat;
+    text-transform: uppercase;
+    width: 300px;
+    color:  #FA382F;
+    padding-bottom: 5px;
+ }
+
+
+.flexContainer-project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    margin: 0;
+}
+
+.collum-project {
+    width: 300px;
+    height: 300px;
+    margin: 10px 0px;
+}
+
+.project-image { 
+    width: 300px;
+}
+
+.project-text {
+    font: 17px/29px Roboto;
+}
+
+.project-text span {
+    font: Bold 17px/29px Roboto;
+    text-transform: uppercase;
+    color: #FA382F;
+}
+
+.project-link1 {
+    color: #FA382F; 
+}
+
+.project-keywords {
+    display: flex;
+    padding-top: 8px;
+}
+
+.project-keywords p {
+    font: 10px/10px Roboto;
+    text-transform: uppercase;
+    background-color: #FDDFE7;
+    text-align: center;
+    margin: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.collum-otherproject {
+    margin: 15px 0px;
+}
+
+/* Section 4 style */
+
+.portfolio-section4 {
+    height: 1200px;
+    padding: 40px 36px 0 36px;
 }
