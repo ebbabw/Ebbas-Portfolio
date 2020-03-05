@@ -47,7 +47,7 @@ header {
 
 .info-text {
     padding-right: 30px;
-    padding-top: 30px;  
+    padding-top: 30px; 
 }
 
 .top-text {
@@ -75,7 +75,7 @@ header {
 
 .under-text {
    padding-top: 5px;
-   font: Bold 30px/25px Montserrat;
+   font: Bold 25px/25px Montserrat;
    color: #FFFFFF;
    margin: 0;
 }
@@ -95,7 +95,7 @@ header {
 /* Section 1 style */
 
 .bgcray-portfolio-section1 {
-    height: 360px;
+    height: 310px;
     padding: 40px 36px 0 36px; 
     background-color: rgba(95, 94, 94, 0.062);
 }
@@ -121,9 +121,14 @@ header {
 
 .secation2-titel span {
     background-color: #FA382F;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .secation2-text {
+    padding-top: 25px;
     text-align: center;
     font-family: 'Montserrat';
     font-size: 22px; 
@@ -131,8 +136,10 @@ header {
 
 /* Section 3 style */
 
+/* Section 3 style image and text projects */
+
 .bgcray-portfolio-section3 {
-    height: 1200px;
+    height: 1800px;
     padding: 40px 36px 0 36px;
     background-color: rgba(95, 94, 94, 0.062); 
 }
@@ -147,18 +154,12 @@ header {
 }
 
 .secation3-titel-1 span {
-    background-color: #FA382F;
+    background-color: #FA382F; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
-
-.secation3-titel-2 {
-    text-align: center;
-    font: Bold 15px/27px Montserrat;
-    text-transform: uppercase;
-    width: 300px;
-    color:  #FA382F;
-    padding-bottom: 5px;
- }
-
 
 .flexContainer-project {
     display: flex;
@@ -210,14 +211,200 @@ header {
     padding-right: 8px;
 }
 
+/* Section 3 style text other projects */
+
+.secation3-titel-2 {
+    text-align: center;
+    font: Bold 15px/27px Montserrat;
+    text-transform: uppercase;
+    width: 300px;
+    color:  #FA382F;
+    padding-bottom: 5px;
+    padding-top: 600px;
+ }
+
+ .flexContainer-otherproject {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding-top: 8px;
+}
 
 .collum-otherproject {
     margin: 15px 0px;
 }
 
+.otherproject-text {
+    font: 17px/29px Roboto;
+}
+
+.otherproject-text span {
+    font: Bold 17px/29px Roboto;
+    text-transform: uppercase;
+    color: #FA382F;
+}
+
+.otherproject-keywords {
+    display: flex;
+    padding-top: 8px; 
+}
+
+.otherproject-keywords p {
+    font: 10px/10px Roboto;
+    text-transform: uppercase;
+    background-color: #FDDFE7;
+    text-align: center;
+    margin: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 /* Section 4 style */
 
+/* Section 4 style resent blog posts */
+
 .portfolio-section4 {
-    height: 1200px;
-    padding: 40px 36px 0 36px;
+    height: 1350px;
+    padding: 40px 36px 0 36px;  
 }
+
+.section4-titel-1 {
+    text-align: center;
+    font: Bold 15px/27px Montserrat;
+    text-transform: uppercase;
+    width: 300px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.section4-titel-1 span {
+    background-color: #FA382F; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.flexContainer-blog {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+}
+
+.collum-blog {
+    width: 300px;
+    height: 400px;
+    margin: 20px 0px;
+}
+
+.blog-image {
+    width: 300px;
+    height: 220px;
+}
+
+.blog-text h2 {
+    padding-top: 10px;
+    letter-spacing: 1;
+    font: 17px/32px Roboto;
+    color:  #FA382F;
+    text-transform: uppercase;
+}
+
+.blog-text h3 {
+    font: Bold 21px/32px Roboto;
+}
+
+.blog-text p {
+    font: 17px/32px Roboto;
+}
+
+.blog-link1 {
+    color: #FA382F; 
+}
+
+/* Section 4 style arcived blog posts */
+
+.secation4-titel-2 {
+    text-align: center;
+    font: Bold 15px/27px Montserrat;
+    text-transform: uppercase;
+    width: 300px;
+    color: #FA382F;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.otherblog-text {
+    font: bold 17px/32px Roboto;  
+    margin: 3px;
+}
+
+.otherblog-text span {
+    padding-top: 10px;
+    letter-spacing: 1;
+    font: 17px/32px Roboto;
+    color:  #FA382F;
+    text-transform: uppercase;
+}
+
+/* Section 5 style */
+
+.bgcray-portfolio-section5{
+    height: 600px;
+    padding: 40px 36px 0 36px;  
+    background-color: rgba(95, 94, 94, 0.062); 
+}
+
+.section5-titel-1 {
+    text-align: center;
+    font: Bold 15px/27px Montserrat;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section5-titel-1 span {
+    background-color: #FA382F;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-top: 20px;
+}
+
+.collum-skills {
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 50%;
+    display: flex;
+    height: 250px;
+}
+
+.skills-header {
+    text-align: center;
+    font: Bold 17px/29px Roboto;
+    letter-spacing: 0;
+    color: #FA382F;
+    text-transform: uppercase;
+}
+
+.collum-skills p {
+    text-align: center;
+    font: 15px/29px Roboto;
+    letter-spacing: 0;
+}
+
+
+
