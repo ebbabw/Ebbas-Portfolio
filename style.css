@@ -356,7 +356,7 @@ header {
 /* Section 5 style */
 
 .bgcray-portfolio-section5{
-    height: 600px;
+    height: 520px;
     padding: 40px 36px 0 36px;  
     background-color: rgba(95, 94, 94, 0.062); 
 }
@@ -380,7 +380,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 300px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .collum-skills {
@@ -405,6 +405,85 @@ header {
     font: 15px/29px Roboto;
     letter-spacing: 0;
 }
+
+/* Section 6 social media symbols style */
+
+.portfolio-section6 {
+    height: 260px;
+    padding: 40px 36px 0 36px;  
+}
+
+.section6-titel-1 {
+    padding-top: 50px;
+    text-align: center;
+    font: Bold 15px/27px Montserrat;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section6-titel-1 span {
+    background-color: #FA382F;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.bottom-icon-Container {
+    display: flex;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.icon-line {
+    width: 300px;
+    height: 200px;
+}
+
+.icon-boarder-s6 {
+    border-radius: 50%;
+    border: 3px solid #FA382F;
+    width: 40px;
+    height: 40px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.icon-img-s6 {
+    width: 25px;
+    height: 25px;
+}
+
+.icon-name1 {
+    font: Bold 12px/41px Roboto;
+    letter-spacing: 0;
+    color: #FA382F;
+    text-transform: uppercase;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.icon-name2 {
+    font: Bold 12px/41px Roboto;
+    letter-spacing: 0;
+    color: #FA382F;
+    text-transform: uppercase;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.icon-name3 {
+    font: Bold 12px/41px Roboto;
+    letter-spacing: 0;
+    color: #FA382F;
+    text-transform: uppercase;
+    padding-top: 15px;
+    text-align: center;
+}
+
 
 
 
