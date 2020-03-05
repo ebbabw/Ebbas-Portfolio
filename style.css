@@ -100,7 +100,7 @@ header {
     background-color: rgba(95, 94, 94, 0.062);
 }
 
-.secation1-text {
+.section1-text {
     font-family: 'Montserrat';
     font-size: 22px; 
 }
@@ -112,14 +112,14 @@ header {
     padding: 40px 36px 0 36px;  
 }
 
-.secation2-titel {
+.section2-titel {
    text-align: center;
    font: Bold 15px/27px Montserrat;
    text-transform: uppercase;
    color: #FFFFFF;
 }
 
-.secation2-titel span {
+.section2-titel span {
     background-color: #FA382F;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -127,7 +127,7 @@ header {
     padding-right: 8px;
 }
 
-.secation2-text {
+.section2-text {
     padding-top: 25px;
     text-align: center;
     font-family: 'Montserrat';
@@ -144,7 +144,7 @@ header {
     background-color: rgba(95, 94, 94, 0.062); 
 }
 
-.secation3-titel-1 {
+.section3-titel-1 {
    text-align: center;
    font: Bold 15px/27px Montserrat;
    text-transform: uppercase;
@@ -153,7 +153,7 @@ header {
    padding-bottom: 30px;
 }
 
-.secation3-titel-1 span {
+.section3-titel-1 span {
     background-color: #FA382F; 
     padding-top: 2px;
     padding-bottom: 2px;
@@ -213,7 +213,7 @@ header {
 
 /* Section 3 style text other projects */
 
-.secation3-titel-2 {
+.section3-titel-2 {
     text-align: center;
     font: Bold 15px/27px Montserrat;
     text-transform: uppercase;
@@ -330,7 +330,7 @@ header {
 
 /* Section 4 style arcived blog posts */
 
-.secation4-titel-2 {
+.section4-titel-2 {
     text-align: center;
     font: Bold 15px/27px Montserrat;
     text-transform: uppercase;
@@ -414,7 +414,7 @@ header {
 }
 
 .section6-titel-1 {
-    padding-top: 50px;
+    padding-top: 35px;
     text-align: center;
     font: Bold 15px/27px Montserrat;
     text-transform: uppercase;
@@ -483,6 +483,47 @@ header {
     padding-top: 15px;
     text-align: center;
 }
+
+/* footer contact style */
+
+footer {
+    height: 260px;
+    padding: 40px 36px 0 36px;  
+    background-image: url('./assets/pink-sky.jpeg');
+}
+
+.footer-title {
+    padding-top: 35px;
+    text-align: center;
+    font: Bold 20px/27px Montserrat;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.name-title {
+    padding-top: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    font: Bold 18px/29px Roboto;
+}
+
+.phone-title {
+    padding-top: 5px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    font: 17px/29px Roboto;
+}
+
+.email-title {
+    padding-top: 5px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    font: 17px/29px Roboto;
+}
+
 
 
 
