@@ -1,7 +1,7 @@
 # Ebbas-Portfolio
 Week 8 - Technigo Course 
 
-Started creating to portfolio.
+Started creating a portfolio.
 
 I had some issues I need to check before pushing this live later on. 
 
