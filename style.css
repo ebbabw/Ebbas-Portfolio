@@ -107,8 +107,6 @@ header {
 
     padding-top: 10px;
     width: 50%;
-    background-color: aqua; 
-
 }
 
 .section1-text p {
@@ -179,16 +177,32 @@ header {
 
 .collum-project  {
     width: 300px;
+    height: 300px;
     margin: 8px;
 }
 
-.project-image { 
+.collum-project img { 
+    position: absolute;
     width: 300px;
+    color: rgba(2, 2, 14, 0.781);
+}
+
+.title-overlay {
+    top: 50px;
+    left: 25%;
+    position: relative;
+    font: Bold 12px/34px Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #FFFFFF;
 }
 
 .project-text {
+    position: relative;
+    top: 140px;
     font: 15px/25px Roboto;
 }
+
 
 .project-text span {
     font: Bold 17px/29px Roboto;
@@ -202,6 +216,8 @@ header {
 
 
 .project-keywords {
+    top: 130px;
+    position: relative;
     display: flex;
     padding-top: 8px;
     padding-bottom: 15px;
@@ -466,7 +482,6 @@ footer {
 }
 
 .footer-title {
-    padding-top: 35px;
     text-align: center;
     font: Bold 20px/27px Montserrat;
     text-transform: uppercase;
@@ -474,27 +489,24 @@ footer {
 }
 
 .name-title {
-    padding-top: 15px;
     text-align: center;
     letter-spacing: 0;
     color: #FFFFFF;
-    font: Bold 18px/29px Roboto;
+    font: 17px/29px Montserrat;
 }
 
 .phone-title {
-    padding-top: 5px;
     text-align: center;
     letter-spacing: 0;
     color: #FFFFFF;
-    font: 17px/29px Roboto;
+    font-family: Regular 17px/29px Montserrat;
 }
 
 .email-title {
-    padding-top: 5px;
     text-align: center;
     letter-spacing: 0;
     color: #FFFFFF;
-    font: 17px/29px Roboto;
+    font: 12px/29px Montserrat;
 }
 
 
