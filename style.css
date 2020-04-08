@@ -1,9 +1,4 @@
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 body {
     margin: 0;
     overflow-x: hidden;
@@ -15,13 +10,12 @@ a {
 }
 
 header {
-    height: 400px;
-    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
     background-image: url('./assets/pink-sky.jpeg');
+    height: 400px;
 }
 
 /* Icons style  */
@@ -29,7 +23,6 @@ header {
 .icons-container {
     padding-top: 80px;  
     padding-right: 300px;
-
 }
 
 .icon-boarder { 
@@ -50,42 +43,49 @@ header {
 
 /* Header text style */
 
-.info-text {
-    padding-right: 30px;
-    padding-top: 30px; 
-    padding-right: 600px;
-    margin: 0;
+.info-textarea {
+
+    align-self: flex-start;
+    margin-left: 300px;
+    width: 400px;
+    height: 120px;
 }
 
 .top-text {
     letter-spacing: 1px;
     color: #FFFFFF;
     text-transform: uppercase;
- }
+}
 
- .regual-font {
+.regual-font {
     font: 13px/15px Roboto;
  }
 
  .bold-font {
-    font: Bold 13px/15px Roboto;
+    font: Bold 13px/10px Roboto;
  }
 
-.title-text {
-   font: Bold 40px/49px Montserrat;
-   letter-spacing: 0;
-   color: #FFFFFF;
-}
+ .title-text {
+    font: Bold 40px/44px Montserrat;
+    letter-spacing: 0;
+    color: #FFFFFF;
+ }
 
-.under-text {
-   padding-top: 5px;
-   font: Bold 25px/25px Montserrat;
-   color: #FFFFFF;
-}
+ .sub-text {
+    font: Bold 25px Montserrat;
+    color: #FFFFFF;
+ }
+
 
 /* Profile image */
 
-.profile-image{
+.profile-imagearea {
+    margin: 0px;
+    align-self: center;
+    margin-left: 500px;
+}
+
+.profile-image {
     width: 200px;
     height: 200px;
     border: 2px solid white;
@@ -95,32 +95,45 @@ header {
 /* Section 1 style */
 
 .bgcray-portfolio-section1 {
+
+    display: flex;
+    justify-content: center;
     height: 310px;
     padding: 40px 36px 0 36px; 
     background-color: rgba(95, 94, 94, 0.062);
 }
 
 .section1-text {
-    padding-top: 40px;
+
+    padding-top: 10px;
+    width: 50%;
+    background-color: aqua; 
+
+}
+
+.section1-text p {
+
     font-family: 'Montserrat';
-    font-size: 25px; 
+    font-size: 20px;
+
 }
 
 /* Section 2 style */
 
-.portfolio-section2{
-    height: 360px;
+
+.portfolio-section2 {
+    height: 400px;
     padding: 40px 36px 0 36px;  
 }
 
-.section2-titel {
-   text-align: center;
-   font: Bold 15px/27px Montserrat;
-   text-transform: uppercase;
-   color: #FFFFFF;
+.title_redbackground {
+    text-align: center;
+    font: Bold 15px/27px Montserrat;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
-.section2-titel span {
+.title_redbackground span {
     background-color: #FA382F;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -133,32 +146,21 @@ header {
     text-align: center;
     font-family: 'Montserrat';
     font-size: 22px; 
+    width: 40%;
+    margin: 20px auto;
 }
-
-/* Section 3 style */
 
 /* Section 3 style Featured projects showing section */
 
 .bgcray-portfolio-section3 {
-    height: 100px;
+    height: 1350px;
     padding: 40px 36px 0 36px; 
     background-color: rgba(95, 94, 94, 0.062); 
-    align-content: center;
 }
 
-.section3-titel-1 {
-   text-align: center;
-   font: Bold 15px/27px Montserrat;
-   text-transform: uppercase;
-   color: #FFFFFF;
-}
-
-.section3-titel-1 span{
-    background-color: #FA382F;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
+.project-wrap {
+    display: flex;
+    justify-content: center;
 }
 
 .project-container {
@@ -166,26 +168,22 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 40px;
-    width: 100%;
 }
 
-.collum-project {
-    width: 250px;
-    height: 300px;
-    margin: 10px;
+@media only screen and (min-width : 1200px) {
+
+    .project-container {
+        width: 40%;
+    }
 }
 
-.text-overlay{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-weight: bold;
+.collum-project  {
+    width: 300px;
+    margin: 8px;
 }
 
 .project-image { 
-    position: relative;
-    width: 250px;
+    width: 300px;
 }
 
 .project-text {
@@ -221,14 +219,14 @@ header {
     padding-right: 8px;
 }
 
-/* Section 3 Other projects showing section */
-
+/* Section 3 Other projects*/
 
 .section3-titel-2 {
     text-align: center;
     font: Bold 15px/27px Montserrat;
     text-transform: uppercase;
     color:  #FA382F;
+    padding-top: 20px;
  }
 
  .flexContainer-otherproject {
@@ -237,7 +235,6 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
-    padding-top: 8px;
 }
 
 .otherproject-center {
@@ -273,37 +270,25 @@ header {
     padding-right: 8px;
 }
 
-/* Section 4 style */
-
 /* Section 4 style resent blog posts */
 
 .portfolio-section4 {
-    height: 850px;
+    height: 900px;
     padding: 40px 36px 0 36px;  
 }
 
-.section4-titel-1 {
-   text-align: center;
-   font: Bold 15px/27px Montserrat;
-   text-transform: uppercase;
-   color: #FFFFFF;
+.blog-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
-
-.section4-titel-1 span {
-    background-color: #FA382F;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
 
 .Container-blog {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 70%;
     height: 300px;
     padding-top: 20px;
 }
@@ -338,6 +323,7 @@ header {
 .blog-link1 {
     color: #FA382F; 
 } 
+
 
 /* Section 4 style arcived blog posts */
 
@@ -376,7 +362,7 @@ header {
 /* Section 5 style */
 
 .bgcray-portfolio-section5{
-    height: 450px;
+    height: 520px;
     padding: 40px 36px 0 36px;  
     background-color: rgba(95, 94, 94, 0.062); 
 }
@@ -425,27 +411,13 @@ header {
     letter-spacing: 0;
 }
 
+
+
 /* Section 6 social media symbols style */
 
 .portfolio-section6 {
     height: 260px;
     padding: 40px 36px 0 36px;  
-}
-
-.section6-titel-1 {
-    padding-top: 35px;
-    text-align: center;
-    font: Bold 15px/27px Montserrat;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.section6-titel-1 span {
-    background-color: #FA382F;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 .botton-icon-Container {
@@ -476,26 +448,7 @@ header {
     height: 25px;
 }
 
-.icon-name1 {
-    font: Bold 12px/41px Roboto;
-    letter-spacing: 0;
-    color: #FA382F;
-    text-transform: uppercase;
-    padding-top: 15px;
-    text-align: center;
-}
-
-.icon-name2 {
-    font: Bold 12px/41px Roboto;
-    letter-spacing: 0;
-    color: #FA382F;
-    text-transform: uppercase;
-    padding-top: 15px;
-    text-align: center;
-}
-
-
-.icon-name3 {
+.icon-name {
     font: Bold 12px/41px Roboto;
     letter-spacing: 0;
     color: #FA382F;
@@ -546,182 +499,3 @@ footer {
 
 
 
-
-@media(max-width: 1500px) {
-
-    .bgcray-portfolio-section3 {
-        height: 900px;
-    }
-}
-
-@media(max-width: 900px) {
-    .bgcray-portfolio-section3 {
-        height: 1200px;
-    }
-}
-
-@media(max-width: 1200px) {
-    .bgcray-portfolio-section3 {
-        height: 1200px;
-    }
-}
-
-/* Tablet style */
-
-@media(max-width: 800px) {
-    
-    header {
-        height: 520px;
-        padding: 40px 36px 0 36px;
-        margin-bottom: 5px;
-    }
-
-    .bgcray-portfolio-section3 {
-        height: 1200px;
-    }
-
-    .portfolio-section4 {
-        height: 1300px;
-    }
-
-    .section4-titel-2 {
-        padding-top: 600px;
-    }
-
-    .bgcray-portfolio-section5 {
-        height: 600px;
-    }
-   
-}
-
-@media(max-width: 600px) {
-
-    header {
-        height: 520px;
-        padding: 40px 36px 0 36px;
-        margin-bottom: 5px;
-    }
-
-    .info-text {
-        padding-right: 30px;
-        padding-top: 30px; 
-    }
-    
-    /* Icons style  */
-    
-    .icons-container {
-        padding-top: 100px;  
-        padding-right: 30px;
-    
-    }
-    
-    .icon-boarder { 
-        border-radius: 50%;
-        border: 3px solid #FFFFFF;
-        width: 40px;
-        height: 40px;
-        padding-top: 15px;
-        padding-bottom: 5px;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    
-    .icon-img {
-        width: 20px;
-        height: 20px;
-    }
-    
-    /* Header text style */
-    
-    .info-text {
-        padding-right: 30px;
-        padding-top: 30px; 
-    }
-    
-    .top-text {
-        letter-spacing: 1px;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        padding-bottom: 2px;
-        margin: 0;
-        padding-left: 20px;
-     }
-    
-     .regual-font {
-        font: 13px/15px Roboto;
-     }
-    
-     .bold-font {
-        font: Bold 13px/15px Roboto;
-     }
-    
-    .title-text {
-       font: Bold 40px/49px Montserrat;
-       letter-spacing: 0;
-       color: #FFFFFF;
-       margin: 0;
-       padding-left: 20px;
-    }
-    
-    .under-text {
-       padding-top: 5px;
-       font: Bold 25px/25px Montserrat;
-       color: #FFFFFF;
-       margin: 0;
-       padding-left: 20px;
-    }
-
-    .person-image {
-        display: flex;
-        justify-items: right;
-        background-color: darkgoldenrod;
-    }
-    
-    .person-image img{
-        border-radius: 50%;
-        border: 3px solid rgb(255, 255, 255);
-        width: 170px;
-    }
-
-    .bgcray-portfolio-section3 {
-        height: 1800px;
-    }
-
-    .portfolio-section4 {
-        height: 1300px;
-    }
-
-    .section4-titel-2 {
-        padding-top: 600px;
-    }
-
-    .otherproject-center {
-        text-align: center;
-        margin: 3px;
-    }
-
-    .otherproject-text {
-        font: 12px/29px Roboto;
-    }
-
-    .otherproject-keywords {
-        display: flex;
-        padding-top: 8px; 
-        padding-left: 90px;
-    }
-    
-    .otherproject-keywords p {
-        font: 9px/10px Roboto;
-    }
-
-    .otherblog-text {
-        font: bold 17px/32px Roboto;  
-        margin: 3px;
-        padding: 0;
-    }
-
-    .bgcray-portfolio-section5 {
-        height: 600px;
-    }
-
-}
