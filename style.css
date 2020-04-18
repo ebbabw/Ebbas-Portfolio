@@ -103,9 +103,14 @@ header {
     background-color: rgba(95, 94, 94, 0.062);
 }
 
-.section1-text {
+.intro-icon {
+    width: 90px;
+    height: 20px;
+    margin-right: 10px;
+}
 
-    padding-top: 10px;
+.section1-text {
+    padding-top: 30px;
     width: 50%;
 }
 
@@ -151,7 +156,7 @@ header {
 /* Section 3 style Featured projects showing section */
 
 .bgcray-portfolio-section3 {
-    height: 1350px;
+    height: 1230px;
     padding: 40px 36px 0 36px; 
     background-color: rgba(95, 94, 94, 0.062); 
 }
@@ -168,10 +173,10 @@ header {
     justify-content: center;
 }
 
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 600px) {
 
     .project-container {
-        width: 40%;
+        width: 60%;
     }
 }
 
@@ -189,7 +194,7 @@ header {
 
 .title-overlay {
     top: 50px;
-    left: 25%;
+    text-align: center;
     position: relative;
     font: Bold 12px/34px Montserrat;
     text-transform: uppercase;
