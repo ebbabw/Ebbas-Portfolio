@@ -529,7 +529,7 @@ footer {
     .profile-imagearea {
         margin-top: 150px;
         margin-right: 180px;
-        margin-left: 430px;
+        margin-left: 330px;
     }
 
     .bgcray-portfolio-section1 {
@@ -537,7 +537,7 @@ footer {
     }
 
     .portfolio-section2 {
-        height: 550px;
+        height: 700px;
     }   
 
     .project-container {
@@ -546,7 +546,7 @@ footer {
 
     .bgcray-portfolio-section3 {
        
-        height: 1800px;
+        height: 2000px;
    
     }
 
@@ -567,7 +567,7 @@ footer {
     }
 
     .bgcray-portfolio-section5{
-        height: 860px;
+        height: 1200px;
   } 
 
 }
