@@ -541,8 +541,7 @@ footer {
     }   
 
     .project-container {
-        justify-content: center;
-        width: 80%;
+        width: 100%;
     }
 
     .bgcray-portfolio-section3 {
@@ -568,7 +567,7 @@ footer {
     }
 
     .bgcray-portfolio-section5{
-        height: 1300px;
+        height: 1500px;
   } 
 
 }
