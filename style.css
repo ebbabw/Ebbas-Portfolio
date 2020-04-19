@@ -503,7 +503,7 @@ footer {
 /* Media query style */
 
 /* Mobile */
-@media only screen and (min-width : 200px){
+@media only screen and (min-width : 100px){
 
     header {
        height: 550px;
