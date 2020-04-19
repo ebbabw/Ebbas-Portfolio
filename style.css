@@ -505,8 +505,16 @@ footer {
 /* Mobile */
 @media only screen and (min-width : 100px){
 
+
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
     header {
        height: 550px;
+       width: 100%;
     }
 
     .icons-container {
@@ -525,7 +533,7 @@ footer {
     }
 
     .bgcray-portfolio-section1 {
-        height: 480px;
+        height: 800px;
     }
 
     .portfolio-section2 {
