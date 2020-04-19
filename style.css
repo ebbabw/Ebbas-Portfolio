@@ -183,18 +183,24 @@ header {
     position: absolute;
     width: 300px;
     height: 200px;
-    color: rgba(2, 2, 2);
-    opacity: 50%;
+    background: lightslategrey;
+}
+
+.collum-project img:hover {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px rgb(204, 79, 79);
+      box-shadow: 0 0 15px rgb(27, 27, 27);
 }
 
 .title-overlay {
     top: 70px;
     text-align: center;
     position: relative;
-    font: Bold 12px/34px Montserrat;
+    font: Bold 15px/34px Montserrat;
     text-transform: uppercase;
     letter-spacing: 0px;
     color: #FFFFFF;
+    background-color: rgba(167, 158, 157, 0.5);
 }
 
 .project-text {
@@ -202,7 +208,6 @@ header {
     top: 140px;
     font: 15px/25px Roboto;
 }
-
 
 .project-text span {
     font: Bold 17px/29px Roboto;
@@ -212,6 +217,10 @@ header {
 
 .project-link1 {
     color: #FA382F; 
+}
+
+.project-link1:hover {
+    text-decoration: underline;
 }
 
 
@@ -309,9 +318,16 @@ header {
     height: 400px;
 }
 
+
 .blog-image {
     width: 300px;
     height: 220px;
+}
+
+.blog-image:hover {
+    -moz-box-shadow: 0 0 10px rgb(133, 36, 36);
+    -webkit-box-shadow: 0 0 10px rgb(133, 36, 36);
+    box-shadow: 0 0 20px rgb(133, 36, 36);
 }
 
 .blog-text h2 {
@@ -333,6 +349,10 @@ header {
 .blog-link1 {
     color: #FA382F; 
 } 
+
+.blog-link1:hover {
+    text-decoration: underline;
+}
 
 
 /* Section 4 style arcived blog posts */
