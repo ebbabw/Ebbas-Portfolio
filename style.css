@@ -8,7 +8,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
 header {
     display: flex;
     flex-direction: column;
@@ -26,7 +25,7 @@ header {
 }
 
 .title_redbackground span {
-    background-color: #FA382F;
+    background-color: #8559FF;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 8px;
@@ -212,11 +211,11 @@ header {
 .project-text span {
     font: Bold 17px/29px Roboto;
     text-transform: uppercase;
-    color: #FA382F;
+    color: #8559FF;
 } 
 
 .project-link1 {
-    color: #FA382F; 
+    color: #8559FF; 
 }
 
 .project-link1:hover {
@@ -235,7 +234,7 @@ header {
 .project-keywords p {
     font: 10px/10px Roboto;
     text-transform: uppercase;
-    background-color: #FDDFE7;
+    background-color: rgba(201, 199, 194, 0.5);
     text-align: center;
     margin: 2px;
     padding-top: 5px;
@@ -250,7 +249,7 @@ header {
     text-align: center;
     font: Bold 15px/27px Montserrat;
     text-transform: uppercase;
-    color:  #FA382F;
+    color:  #8559FF;
     padding-top: 20px;
  }
 
@@ -269,7 +268,7 @@ header {
 .otherproject-text span {
     font: Bold 17px/29px Roboto;
     text-transform: uppercase;
-    color: #FA382F;
+    color: #8559FF;
 }
 
 .otherproject-keywords {
@@ -280,7 +279,7 @@ header {
 .otherproject-keywords p {
     font: 10px/10px Roboto;
     text-transform: uppercase;
-    background-color: #FDDFE7;
+    background-color: rgba(201, 199, 194, 0.5);
     text-align: center;
     margin: 2px;
     padding-top: 4px;
@@ -334,7 +333,7 @@ header {
     padding-top: 10px;
     letter-spacing: 1;
     font: 15px/20px Roboto;
-    color:  #FA382F;
+    color:  #8559FF;
     text-transform: uppercase;
 }
 
@@ -347,7 +346,7 @@ header {
 }
 
 .blog-link1 {
-    color: #FA382F; 
+    color: #8559FF; 
 } 
 
 .blog-link1:hover {
@@ -362,14 +361,21 @@ header {
     text-align: center;
     font: Bold 15px/27px Montserrat;
     text-transform: uppercase;
-    color:  #FA382F;
+    color:  #8559FF;
  }
 
 .blog-othercontainer {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     padding-top: 8px;
+    width: 100%;
+    justify-content: center;
+}
+
+.blog-otherwrapper {
+    width: 40%;
 }
 
 .otherblog-text {
@@ -382,7 +388,7 @@ header {
     padding-top: 10px;
     letter-spacing: 1;
     font: 17px/32px Roboto;
-    color:  #FA382F;
+    color:  #8559FF;
     text-transform: uppercase;
 }
 
@@ -403,7 +409,7 @@ header {
 }
 
 .section5-titel-1 span {
-    background-color: #FA382F;
+    background-color: #2B2E34;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 8px;
@@ -429,7 +435,7 @@ header {
     text-align: center;
     font: Bold 17px/29px Roboto;
     letter-spacing: 0;
-    color: #FA382F;
+    color: #2B2E34;
     text-transform: uppercase;
 }
 
@@ -460,7 +466,7 @@ header {
 
 .icon-boarder-s6 {
     border-radius: 50%;
-    border: 3px solid #FA382F;
+    border: 3px solid #8559FF;
     width: 40px;
     height: 40px;
     padding-top: 30px;
@@ -477,7 +483,7 @@ header {
 .icon-name {
     font: Bold 12px/41px Roboto;
     letter-spacing: 0;
-    color: #FA382F;
+    color: #8559FF;
     text-transform: uppercase;
     padding-top: 15px;
     text-align: center;
@@ -582,6 +588,10 @@ footer {
         margin-top: 500px;
     }
 
+    .blog-otherwrapper {
+        width: 90%;
+    }
+    
    .otherblog-text {
     padding-right: 80px;
     }
@@ -636,6 +646,11 @@ footer {
         margin-top: 10px;
     }
 
+    .blog-otherwrapper {
+        width: 80%;
+    }
+    
+
     .bgcray-portfolio-section5{
         height: 520px;
   } 
@@ -675,12 +690,16 @@ footer {
     }
 
     .bgcray-portfolio-section3 {
-        height: 1440px;
+        height: 1600px;
     }
 
     .portfolio-section4 {
         height: 1000px;
     }
+
+    .blog-otherwrapper {
+        width: 40%;
+    }    
 
     .bgcray-portfolio-section5{
         height: 520px;
