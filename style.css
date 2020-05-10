@@ -182,7 +182,8 @@ header {
     position: absolute;
     width: 300px;
     height: 200px;
-    background: lightslategrey;
+    background-size: cover;
+    filter: brightness(0.7);
 }
 
 .collum-project img:hover {
@@ -199,7 +200,6 @@ header {
     text-transform: uppercase;
     letter-spacing: 0px;
     color: #FFFFFF;
-    background-color: rgba(167, 158, 157, 0.5);
 }
 
 .project-text {
@@ -232,7 +232,7 @@ header {
 }
 
 .project-keywords p {
-    font: 10px/10px Roboto;
+    font: 6px/10px Roboto;
     text-transform: uppercase;
     background-color: rgba(201, 199, 194, 0.5);
     text-align: center;
@@ -273,7 +273,7 @@ header {
 
 .otherproject-keywords {
     display: flex;
-    padding-top: 8px; 
+    padding-top: 5px; 
 }
 
 .otherproject-keywords p {
@@ -572,7 +572,7 @@ footer {
 
     .bgcray-portfolio-section3 {
        
-        height: 2300px;
+        height: 2500px;
    
     }
 
@@ -631,7 +631,7 @@ footer {
     }
 
     .bgcray-portfolio-section3 {
-        height: 1200px;
+        height: 1900px;
     }
 
     .portfolio-section4 {
@@ -690,7 +690,7 @@ footer {
     }
 
     .bgcray-portfolio-section3 {
-        height: 1600px;
+        height: 1700px;
     }
 
     .portfolio-section4 {
