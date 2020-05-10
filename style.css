@@ -188,7 +188,6 @@ header {
 
 .collum-project img:hover {
       -moz-box-shadow: 0 0 10px #ccc;
-      -webkit-box-shadow: 0 0 10px rgb(204, 79, 79);
       box-shadow: 0 0 15px rgb(27, 27, 27);
 }
 
@@ -324,9 +323,8 @@ header {
 }
 
 .blog-image:hover {
-    -moz-box-shadow: 0 0 10px rgb(133, 36, 36);
-    -webkit-box-shadow: 0 0 10px rgb(133, 36, 36);
-    box-shadow: 0 0 20px rgb(133, 36, 36);
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 15px rgb(27, 27, 27);
 }
 
 .blog-text h2 {
@@ -435,7 +433,7 @@ header {
     text-align: center;
     font: Bold 17px/29px Roboto;
     letter-spacing: 0;
-    color: #2B2E34;
+    color: #8559FF;
     text-transform: uppercase;
 }
 
