@@ -174,7 +174,7 @@ header {
 
 .collum-project  {
     width: 300px;
-    height: 300px;
+    height: 350px;
     margin: 8px;
 }
 
@@ -226,12 +226,13 @@ header {
     top: 130px;
     position: relative;
     display: flex;
+    width: 40px;
     padding-top: 8px;
     padding-bottom: 15px;
 }
 
 .project-keywords p {
-    font: 6px/10px Roboto;
+    font: 5px/10px Roboto;
     text-transform: uppercase;
     background-color: rgba(201, 199, 194, 0.5);
     text-align: center;
@@ -570,7 +571,7 @@ footer {
 
     .bgcray-portfolio-section3 {
        
-        height: 3000px;
+        height: 5000px;
    
     }
 
@@ -629,7 +630,7 @@ footer {
     }
 
     .bgcray-portfolio-section3 {
-        height: 1900px;
+        height: 5000px;
     }
 
     .portfolio-section4 {
@@ -688,7 +689,7 @@ footer {
     }
 
     .bgcray-portfolio-section3 {
-        height: 2500px;
+        height: 2800px;
     }
 
     .portfolio-section4 {
